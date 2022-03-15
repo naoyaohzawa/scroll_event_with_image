@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;   /* 16px × 62.5% =10px */
+}
+
+body{
+    font-size: 1.0rem;	
+    font-family: 'Kaushan Script, Hiragino', cursive;
+
+} 
+
+h1{
+    font-size: 15.0rem;
+    font-weight: bold;
+    color: ivory;
+    letter-spacing: 3.0rem;
+}
+
+h2{
+    font-size: 8.0rem;
+    font-weight: bold;
+    letter-spacing: 2.0rem;
+}
+
+.contentImage{
+    width: 100vw;
+    height: 850px;
+}
+
+
+/* content1 */
+
+.content1{
+    text-align: center;
+    position: relative;
+}
+
+.content1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);   
+}
+
+#message1{
+    height: 600px;
+    background-color: ivory;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#message1 h2{
+    margin: auto 0;
+}
+
+/* sectionのcss */
+
+#section2{
+    opacity: 0;
+    transition: 3000ms;
+}
+
+
+#section3{
+    opacity: 0;
+    transition: 3000ms;
+}
+
+#section4{
+    opacity: 0;
+    transition: 3000ms;
+}
+
+/* content2 */
+
+.content2{
+    text-align: center;
+    position: relative;
+}
+
+.content2 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);   
+}
+
+#message2{
+    height: 600px;
+    background-color: ivory;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#message2 h2{
+    margin: auto 0;
+}
+
+
+/* content3 */
+.content3{
+    text-align: center;
+    position: relative;
+}
+
+.content3 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#message3{
+    height: 600px;
+    background-color: ivory;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#message3 h2{
+    margin: auto 0;
+}
+
+/* content4 */
+.content4{
+    text-align: center;
+    position: relative;
+}
+
+.content4 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);   
+}
